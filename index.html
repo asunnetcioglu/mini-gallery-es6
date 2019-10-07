@@ -1,0 +1,32 @@
+ <html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Mini Gallery</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Photo Gallery with ES6</h1>
+    <h2>Bootstrap 4 UI</h2>
+    <div class="row">
+      <div class="col-md-5">
+        <div class="panel">
+          <img id="photo-mountain" src="https://ichef.bbci.co.uk/images/ic/640x360/p0659ssc.jpg" alt="">
+          <img class="d-none" id="photo-forest" src="https://i.pinimg.com/736x/c6/6a/46/c66a46d49c95fd07558e258568de51e1.jpg" alt="">
+          <img class="d-none" id="photo-desert" src="https://ichef.bbci.co.uk/images/ic/640x360/p06g8l0g.jpg" alt="">
+        </div>
+
+        <ul class="list-unstyled mx-auto mt-2 mb-2">
+          <li class="float-left mr-2"><a data-img='photo-mountain' id='mountain-link' href='#'> <img width="50" height="50" src="https://ichef.bbci.co.uk/images/ic/640x360/p0659ssc.jpg" alt=""> </a> </li>
+          <li class="float-left mr-2"><a href="#" data-img='photo-forest' id='forest-link'><img width="50" height="50" src="https://i.pinimg.com/736x/c6/6a/46/c66a46d49c95fd07558e258568de51e1.jpg" alt=""></a></li>
+          <li class="float-left mr-2"><a href="#" data-img='photo-desert' id='desert-link'><img width="50" height="50" src="https://ichef.bbci.co.uk/images/ic/640x360/p06g8l0g.jpg" alt=""></a> </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
